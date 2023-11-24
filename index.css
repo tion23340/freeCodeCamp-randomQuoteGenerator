@@ -1,0 +1,84 @@
+:root {
+  --display-color: turquoise;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: var(--display-color);
+}
+
+#text-container {
+  display: grid;
+  justify-content: center;
+  width: max(45vw, 500px);
+  padding: 35px;  
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+}
+
+.content-container {
+  display: grid;
+}
+
+.select-and-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 45vw;
+  height: 100vh;
+}
+
+.btn {
+  border: 1px solid black;
+  margin: 1rem; 
+  background-color: var(--display-color);
+  font-weight: bold;
+  color: gray;
+}
+
+.author {
+  font-size: 1rem;
+  text-align: right;
+  opacity: .6;
+}
+
+.category {
+  font-size: .8rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem auto;
+}
+.category select {
+  margin: 0 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+.quote {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: Wowi;
+  color: var(--display-color);
+  
+}
+
